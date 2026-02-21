@@ -1,0 +1,51 @@
+{
+  "name": "@agdp/structured-cognition",
+  "version": "1.0.0",
+  "description": "MCP server for Structured Cognition Protocol — 5 middleware skills that diagnose and fix reasoning failures in AI agent systems",
+  "type": "module",
+  "bin": {
+    "structured-cognition": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "structured-cognition",
+    "agent-reasoning",
+    "cognitive-bullwhip",
+    "signal-anchor",
+    "logic-stack",
+    "causal-mesh",
+    "principle-gate",
+    "ai-agent",
+    "reasoning-middleware"
+  ],
+  "author": "AGDP",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agdp-io/structured-cognition"
+  },
+  "homepage": "https://agdp.io/agent/3387"
+}
